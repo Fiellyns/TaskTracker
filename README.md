@@ -1,4 +1,4 @@
-# Java-Kanban
+# TaskTracker
 Этот проект представляет собой простое приложение Kanban, написанное на Java. Оно позволяет организовывать задачи в виде карточек на доске с тремя столбцами: "To Do", "In Progress" и "Done".
 # Описание
 
@@ -25,9 +25,9 @@
 2. Перейти в директорию проекта.
 3. Собрать проект с помощью Maven.
 ```sh
-git clone https://github.com/Fiellyns/java-kanban.git
-cd java-kanban
+git clone https://github.com/Fiellyns/TaskTracker.git
+cd TaskTracker
 mvn clean install
 ```
 4. Запустить приложение.
-``java -jar target/java-kanban-1.0-SNAPSHOT.jar``
+``java -jar target/TaskTracker-1.0-SNAPSHOT.jar``
